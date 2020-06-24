@@ -1,7 +1,7 @@
+expression                           ::=   "(" expression ")"
 
+                                       |   ( "+" | "-" ) <NO_WHITESPACE>expression
 
-                expression    ::=   ( "+" | "-" ) <NO_WHITESPACE>expression
+                                       |   expression ( "÷" | "×" | "+" | "-" ) expression
 
-                                |   expression ( "/" | "*" | "+" | "-" ) expression
-
-                                ;
+                                       ;
