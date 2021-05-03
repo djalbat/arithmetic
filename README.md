@@ -1,8 +1,7 @@
 # Arithmetic
 
-Arithmetic for the [Occam](http://occam.science) proof assistant.
+Arithmetic for [Occam](https://occam.science).
 
 ## Contact
 
-* james.smith@openmathematics.org
 * http://djalbat.com
