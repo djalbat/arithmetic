@@ -4,6 +4,4 @@
 
                                        |   expression ( "÷" | "×" | "+" | "-" ) expression
 
-                                       |   expression ( "<" | "<=" | ">="| ">"  ) expression 
-
                                        ;
