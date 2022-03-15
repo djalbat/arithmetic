@@ -1,5 +1,0 @@
-
-
-               statement             ::=   expression ( "<" | "<=" | ">="| ">" ) expression 
-
-                                       ;
