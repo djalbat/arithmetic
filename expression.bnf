@@ -3,7 +3,9 @@
                          expression  ::=  arithmeticExpression ;
 
 
-               arithmeticExpression  ::=  arithmeticExpression ( "+" | "-" | "×" | "÷" ) arithmeticExpression
+               arithmeticExpression  ::=  "(" arithmeticExpression ")"
+                       
+                                       |  arithmeticExpression ( "+" | "-" | "×" | "÷" ) arithmeticExpression
                        
                                        |  arithmeticTerm
 
