@@ -1,9 +1,13 @@
 
 
-               expression            ::=   ( "+" | "-" )<NO_WHITESPACE>expression
+                         expression  ::=  arithmeticExpression ;
 
-                                       |   expression ( "÷" | "×" | "+" | "-" ) expression
 
-                                       |   expression ( "<" | "<=" | ">="| ">" ) expression 
+               arithmeticExpression  ::=  arithmeticExpression ( "+" | "-" | "×" | "÷" ) arithmeticExpression
+                       
+                                       |  arithmeticTerm
 
+                                       |  typeName
+                       
                                        ;
+
