@@ -9,7 +9,7 @@
                        
                                        |  arithmeticTerm
 
-                                       |  typeName
+                                       |  [name]
                        
                                        ;
 
