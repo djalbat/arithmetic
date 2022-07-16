@@ -3,5 +3,4 @@
                        term  ::=  arithmeticTerm ;
 
 
-             arithmeticTerm  ::=  [name] ;
-
+             arithmeticTerm  ::=  variable ;

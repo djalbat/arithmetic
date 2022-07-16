@@ -5,11 +5,11 @@
 
                arithmeticExpression  ::=  "(" arithmeticExpression ")"
                        
+                                       |  type ( "+" | "-" | "×" | "÷" ) type
+
                                        |  arithmeticExpression ( "+" | "-" | "×" | "÷" ) arithmeticExpression
                        
                                        |  arithmeticTerm
 
-                                       |  [name]
-                       
                                        ;
 
