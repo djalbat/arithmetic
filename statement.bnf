@@ -5,6 +5,6 @@
 
                arithmeticAtatement  ::=  type ( "<" | "<=" | ">=" | ">" ) type
 
-                                      |  arithmeticExpression ( "<" | "<=" | ">=" | ">" ) arithmeticExpression
+                                      |  arithmeticTerm ( "<" | "<=" | ">=" | ">" ) arithmeticTerm
 
                                       ;
