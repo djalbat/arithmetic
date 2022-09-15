@@ -3,8 +3,4 @@
                          statement  ::=  arithmeticAtatement ;
 
 
-               arithmeticAtatement  ::=  type ( "<" | "<=" | ">=" | ">" ) type
-
-                                      |  arithmeticTerm ( "<" | "<=" | ">=" | ">" ) arithmeticTerm
-
-                                      ;
+               arithmeticAtatement  ::=  argument ( "<" | "<=" | ">=" | ">" ) argument ;

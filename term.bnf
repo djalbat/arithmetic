@@ -3,4 +3,4 @@
                        term  ::=  arithmeticTerm ;
 
 
-             arithmeticTerm  ::=  variable ;
+             arithmeticTerm  ::=  argument ( "+" | "-" | "×" | "÷" ) argument ;
