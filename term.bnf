@@ -3,4 +3,8 @@
                        term  ::=  arithmeticTerm ;
 
 
-             arithmeticTerm  ::=  argument ( "+" | "-" | "×" | "÷" ) argument ;
+             arithmeticTerm  ::=  argument ( "+" | "-" | "×" | "÷" ) argument 
+
+                               |  "(" argument ")"
+
+                               ;
