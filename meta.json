@@ -1,3 +1,5 @@
 {
-  "repository": "https://github.com/djalbat/arithmetic"
+  "version": "0.0.0",
+  "repository": "https://github.com/djalbat/arithmetic",
+  "dependencies": {}
 }
