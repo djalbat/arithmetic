@@ -3,4 +3,4 @@
                          statement  ::=  arithmeticAtatement ;
 
 
-               arithmeticAtatement  ::=  argument ( "<" | "<=" | ">=" | ">" ) argument ;
+               arithmeticAtatement  ::=  argument ( "<" | "<=" | "=" | ">=" | ">" ) argument ;
