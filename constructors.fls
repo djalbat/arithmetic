@@ -1,0 +1,12 @@
+Constructor RealNumber + RealNumber:RealNumber
+Constructor RealNumber - RealNumber:RealNumber
+Constructor RealNumber × RealNumber:RealNumber
+Constructor RealNumber ÷ NonZeroRealNumber:RealNumber
+
+Constructor -RealNumber:RealNumber
+
+Constructor Integer/NonZeroInteger:RationalNumber
+
+Constructor zero:NaturalNumber
+Constructor successor(NaturalNumber):NonZeroNaturalNumber
+Constructor predecessor(NonZeroNaturalNumber):NaturalNumber

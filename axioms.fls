@@ -1,0 +1,23 @@
+Variable n
+
+Axiom (ZeroIsNotANonZeroNaturalNumber)
+  ¬(zero:NonZeroNaturalNumber)
+
+Axiom (PredecessorsOfSuccessorsNaturalNumbers)
+  Suppose
+    n:NaturalNumber
+  Then
+    n = predecessor(successor(n))
+
+Axiom (ZeroAndNegativeZeroAreEqual)
+  zero = -zero
+
+Variable p
+Variable q
+
+Axiom (RationalNumbersEqualIntegersDividedByNonZeroIntegers)
+  Suppose
+    p:Integer
+    q:NonZeroInteger
+  Then
+    p/q = p ÷ q

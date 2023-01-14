@@ -3,8 +3,18 @@
                        term  ::=  arithmeticTerm ;
 
 
-             arithmeticTerm  ::=  argument ( "+" | "-" | "×" | "÷" ) argument 
+             arithmeticTerm  ::=  "(" argument ")"
 
-                               |  "(" argument ")"
+                               |  "-"<NO_WHITESPACE>argument
+
+                               |  argument<NO_WHITESPACE>"/"<NO_WHITESPACE>argument
+
+                               |  argument ( "+" | "-" | "×" | "÷" ) argument 
+
+                               |  "zero"
+
+                               |  "successor"<NO_WHITESPACE>"(" argument ")"
+
+                               |  "predecessor"<NO_WHITESPACE>"(" argument ")"
 
                                ;
