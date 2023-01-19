@@ -1,7 +1,7 @@
-Variable n
-
 Axiom (ZeroIsNotANonZeroNaturalNumber)
   ¬(zero:NonZeroNaturalNumber)
+
+Variable n
 
 Axiom (PredecessorsOfSuccessorsNaturalNumbers)
   Suppose
