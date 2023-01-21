@@ -11,4 +11,3 @@ Constructor Integer/NonZeroInteger:RationalNumber
 Constructor zero:NaturalNumber
 Constructor successor(NaturalNumber):NonZeroNaturalNumber
 Constructor predecessor(NonZeroNaturalNumber):NaturalNumber
-
