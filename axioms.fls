@@ -1,7 +1,26 @@
-Axiom (ZeroIsNotANonZeroNaturalNumber)
-  ¬(zero:NonZeroNaturalNumber)
-
 Variable n
+
+Axiom (NonZeroNaturalNumberImpliesNotZero)
+  Suppose
+    n:NaturalNumber
+  Then
+    n:NonZeroNaturalNumber => ¬(n = zero)
+
+Axiom (NotZeroImpliesNonZeroNaturalNumber)
+  Suppose
+    n:NaturalNumber
+  Then
+    ¬(n = zero) => n:NonZeroNaturalNumber
+
+Theorem (ZeroNotNonZeroNaturalNumber)
+  ¬(zero:NonZeroNaturalNumber)
+  Proof
+    zero:NaturalNumber by construction
+    zero:NonZeroNaturalNumber => ¬(zero = zero) by NonZeroNaturalNumberImpliesNotZero
+    zero = zero by construction
+    ¬¬(zero = zero) by DoubleNegationIntroduction
+    Therefore
+      ¬(zero:NonZeroNaturalNumber) by ModusTollens
 
 Axiom (PredecessorsOfSuccessorsNaturalNumbers)
   Suppose
