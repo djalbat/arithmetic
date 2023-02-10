@@ -4,9 +4,9 @@ Variable m
 Theorem (ZeroNotNonZeroNaturalNumber)
   ¬(zero:NonZeroNaturalNumber)
   Proof
-    zero:NaturalNumber by construction
+    zero:NaturalNumber
     zero:NonZeroNaturalNumber => ¬(zero = zero) by NonZeroNaturalNumberImpliesNotZero
-    zero = zero by construction
+    zero = zero
     ¬¬(zero = zero) by DoubleNegationIntroduction
     Therefore
       ¬(zero:NonZeroNaturalNumber) by ModusTollens
@@ -19,4 +19,4 @@ Theorem (SuccessorsOfNaturalNumbersAreNonZeroNaturalNumbers)
   Then
     m:NonZeroNaturalNumber
   Proof
-    m:NonZeroNaturalNumber by construction
+    m:NonZeroNaturalNumber
