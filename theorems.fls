@@ -19,4 +19,6 @@ Theorem (SuccessorsOfNaturalNumbersAreNonZeroNaturalNumbers)
   Then
     m:NonZeroNaturalNumber
   Proof
+    (m = successor(n)) |- m:NonZeroNaturalNumber
+  Therefore
     m:NonZeroNaturalNumber
