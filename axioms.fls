@@ -12,7 +12,7 @@ Axiom (NotZeroImpliesNonZeroNaturalNumber)
   Then
     ¬(n = zero) => n:NonZeroNaturalNumber
 
-Axiom (PredecessorsOfSuccessorsNaturalNumbers)
+Axiom (PredecessorsOfSuccessorsOfNaturalNumbers)
   Suppose
     n:NaturalNumber
   Then
