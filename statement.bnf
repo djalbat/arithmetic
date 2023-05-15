@@ -2,5 +2,4 @@
 
                          statement  ::=  arithmeticAtatement ;
 
-
                arithmeticAtatement  ::=  argument ( "<" | "<=" | ">=" | ">" ) argument ;
