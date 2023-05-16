@@ -1,5 +1,3 @@
 
 
-                         statement  ::=  arithmeticAtatement ;
-
-               arithmeticAtatement  ::=  argument ( "<" | "<=" | ">=" | ">" ) argument ;
+                         statement  ::=  argument ( "<" | "<=" | ">=" | ">" ) argument ;

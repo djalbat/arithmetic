@@ -1,9 +1,6 @@
 
 
-                       term  ::=  arithmeticTerm ;
-
-
-             arithmeticTerm  ::=  "(" argument ")"
+                       term  ::=  "(" argument ")"
 
                                |  "-"<NO_WHITESPACE>argument
 
