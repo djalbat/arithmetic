@@ -8,6 +8,8 @@ Constructor -RealNumber:RealNumber
 
 Constructor Integer/NonZeroInteger:RationalNumber
 
+Constructor ( RealNumber ):RealNumber
+
 Constructor zero:NaturalNumber
 Constructor successor(NaturalNumber):NonZeroNaturalNumber
 Constructor predecessor(NonZeroNaturalNumber):NaturalNumber
