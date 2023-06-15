@@ -5,7 +5,7 @@ Theorem (ZeroNotNonZeroNaturalNumber)
   ¬(zero:NonZeroNaturalNumber)
   Proof
     zero:NaturalNumber
-    zero:NonZeroNaturalNumber => ¬(zero = zero) by NonZeroNaturalNumberImpliesNotZero
+    zero:NonZeroNaturalNumber ⇒ ¬(zero = zero) by NonZeroNaturalNumberImpliesNotZero
     zero = zero
     ¬¬(zero = zero) by DoubleNegationIntroduction
     Therefore

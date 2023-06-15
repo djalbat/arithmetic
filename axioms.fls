@@ -4,13 +4,13 @@ Axiom (NonZeroNaturalNumberImpliesNotZero)
   Suppose
     n:NaturalNumber
   Then
-    n:NonZeroNaturalNumber => ¬(n = zero)
+    n:NonZeroNaturalNumber ⇒ ¬(n = zero)
 
 Axiom (NotZeroImpliesNonZeroNaturalNumber)
   Suppose
     n:NaturalNumber
   Then
-    ¬(n = zero) => n:NonZeroNaturalNumber
+    ¬(n = zero) ⇒ n:NonZeroNaturalNumber
 
 Axiom (PredecessorsOfSuccessorsOfNaturalNumbers)
   Suppose

@@ -1,4 +1,4 @@
 
 
-                         statement  ::=  argument ( "<" | "<=" | ">=" | ">" ) argument ;
+                         statement  ::=  argument ( "<" | "⩽" | "⩾" | ">" ) argument ;
 
