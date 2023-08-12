@@ -6,7 +6,13 @@
 
                                |  argument<NO_WHITESPACE>"/"<NO_WHITESPACE>argument
 
-                               |  argument ( "+" | "-" | "×" | "÷" ) argument 
+                               |  argument ( "÷" (14)
+
+                                           | "×" (13)
+
+                                           | "+" (12)
+
+                                           | "-" (11) ) argument 
 
                                |  "zero"
 
