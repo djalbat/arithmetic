@@ -2,10 +2,6 @@
 
                        term  ::=  "(" argument ")"
 
-                               |  "-"<NO_WHITESPACE>argument
-
-                               |  argument<NO_WHITESPACE>"/"<NO_WHITESPACE>argument
-
                                |  argument ( "÷" (14)
 
                                            | "×" (13)
@@ -13,12 +9,6 @@
                                            | "+" (12)
 
                                            | "-" (11) ) argument 
-
-                               |  "zero"
-
-                               |  "successor"<NO_WHITESPACE>"(" argument ")"
-
-                               |  "predecessor"<NO_WHITESPACE>"(" argument ")"
 
                                ;
 

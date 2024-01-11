@@ -1,18 +1,24 @@
-Constructor RealNumber + RealNumber:RealNumber
-Constructor RealNumber - RealNumber:RealNumber
-Constructor RealNumber × RealNumber:RealNumber
+Constructor ℝ + ℝ:ℝ
+Constructor ℚ + ℚ:ℚ
+Constructor ℤ + ℤ:ℤ
+Constructor ℕ + ℕ:ℕ
 
-Constructor Integer ÷ NonZeroInteger:RationalNumber
+Constructor ℝ × ℝ:ℝ
+Constructor ℚ × ℚ:ℚ
+Constructor ℤ × ℤ:ℤ
+Constructor ℕ × ℕ:ℕ
 
-Constructor -RealNumber:RealNumber
+Constructor ℝ - ℝ:ℝ
+Constructor ℚ - ℚ:ℚ
+Constructor ℤ - ℤ:ℤ
+Constructor ℕ - ℕ:ℤ
 
-Constructor Integer/NonZeroInteger:RationalNumber
+Constructor ℝ ÷ ℝ\{0}:ℝ
+Constructor ℚ ÷ ℚ\{0}:ℚ
+Constructor ℚ ÷ ℤ\{0}:ℚ
+Constructor ℚ ÷ ℕ\{0}:ℚ
 
-Constructor ( RealNumber ):RealNumber
-Constructor ( RationalNumber ):RationalNumber
-Constructor ( Integer ):Integer
-Constructor ( NaturalNumber ):NaturalNumber
-
-Constructor zero:NaturalNumber
-Constructor successor(NaturalNumber):NonZeroNaturalNumber
-Constructor predecessor(NonZeroNaturalNumber):NaturalNumber
+Constructor (ℝ):ℝ
+Constructor (ℚ):ℚ
+Constructor (ℤ):ℤ
+Constructor (ℕ):ℕ

@@ -1,9 +1,9 @@
-Type RealNumber
-Type RationalNumber:RealNumber
-Type Integer:RationalNumber
-Type NaturalNumber:Integer
+Type ℝ
+Type ℚ:ℝ
+Type ℤ:ℚ
+Type ℕ:ℤ
 
-Type NonZeroRealNumber:RealNumber
-Type NonZeroRationalNumber:RationalNumber
-Type NonZeroInteger:Integer
-Type NonZeroNaturalNumber:NaturalNumber
+Type ℝ\{0}:ℝ
+Type ℚ\{0}:ℚ
+Type ℤ\{0}:ℚ
+Type ℕ\{0}:ℚ
