@@ -1,9 +1,0 @@
-Type ℝ
-Type ℚ:ℝ
-Type ℤ:ℚ
-Type ℕ:ℤ
-
-Type ℝ\{0}:ℝ
-Type ℚ\{0}:ℚ
-Type ℤ\{0}:ℚ
-Type ℕ\{0}:ℚ
