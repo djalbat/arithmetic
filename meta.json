@@ -1,5 +1,5 @@
 {
-  "version": "0.0.5",
+  "version": "1.0.0",
   "repository": "https://github.com/djalbat/arithmetic",
   "dependencies": {
     "minimal-propositional-logic": "2.0",

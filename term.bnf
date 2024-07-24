@@ -1,14 +1,10 @@
 
 
-                       term  ::=  "(" argument ")"
-
-                               |  argument ( "÷" (14)
+                       term  ::=  argument ( "÷" (14)
 
                                            | "×" (13)
 
                                            | "+" (12)
 
-                                           | "-" (11) ) argument 
-
-                               ;
+                                           | "-" (11) ) argument ;
 
