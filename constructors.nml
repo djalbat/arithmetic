@@ -19,8 +19,3 @@ Constructor ℝ ÷ ℝ\{0}:ℝ
 Constructor ℚ ÷ ℚ\{0}:ℚ
 Constructor ℚ ÷ ℤ\{0}:ℚ
 Constructor ℚ ÷ ℕ\{0}:ℚ
-
-Constructor (ℝ):ℝ
-Constructor (ℚ):ℚ
-Constructor (ℤ):ℤ
-Constructor (ℕ):ℕ
