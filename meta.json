@@ -1,8 +1,8 @@
 {
-  "version": "4.0.0",
+  "version": "4.0.1",
   "repository": "https://github.com/djalbat/arithmetic",
   "dependencies": {
-    "minimal-propositional-logic": "5.0",
-    "numbers": "3.0"
+    "minimal-propositional-logic": "5.1",
+    "numbers": "3.1"
   }
 }
