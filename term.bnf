@@ -1,5 +1,8 @@
 
 
+                       term  ::=  "-"<NO_WHITESPACE>argument ;
+
+
                        term  ::=  argument ( "÷" (14)
 
                                            | "×" (13)
