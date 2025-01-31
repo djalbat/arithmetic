@@ -1,4 +1,6 @@
 Constructor -ℝ:ℝ
+Constructor -ℚ:ℚ
+Constructor -ℤ:ℤ
 
 Constructor ℝ + ℝ:ℝ
 Constructor ℚ + ℚ:ℚ
@@ -13,9 +15,6 @@ Constructor ℕ × ℕ:ℕ
 Constructor ℝ - ℝ:ℝ
 Constructor ℚ - ℚ:ℚ
 Constructor ℤ - ℤ:ℤ
-Constructor ℕ - ℕ:ℤ
 
 Constructor ℝ ÷ ℝ\{0}:ℝ
 Constructor ℚ ÷ ℚ\{0}:ℚ
-Constructor ℚ ÷ ℤ\{0}:ℚ
-Constructor ℚ ÷ ℕ\{0}:ℚ
