@@ -1,7 +1,7 @@
 Variable z:ℤ
 
 Axiom (ZeroAndNegativeZeroAreEqual)
-  zero = -zero
+  𝘻𝘦𝘳𝘰 = -𝘻𝘦𝘳𝘰
 
 Axiom (DoubleNegationCancels)
-  --z = z
+  --𝘻𝘦𝘳𝘰 = 𝘻𝘦𝘳𝘰
