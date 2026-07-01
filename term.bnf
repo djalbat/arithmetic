@@ -1,13 +1,13 @@
 
 
-                       term  ::=  "-"<NO_WHITESPACE>argument (50) ;
+                       term  ::=  "-"<NO_WHITESPACE>argument (100) ;
 
 
-                       term  ::=  argument ( "÷" (14)
+                       term  ::=  argument ( "÷" (99)
 
-                                           | "×" (13)
+                                           | "×" (98)
 
-                                           | "+" (12)
+                                           | "+" (97)
 
-                                           | "-" (11) ) argument ;
+                                           | "-" (96) ) argument ;
 
