@@ -1,20 +1,25 @@
-Constructor -ℝ:ℝ
+Constructor -ℝ:ℝ provisionally
+Constructor ℝ + ℝ:ℝ provisionally
+Constructor ℝ × ℝ:ℝ provisionally
+Constructor ℝ - ℝ:ℝ provisionally
+Constructor ℝ ÷ ℝ\{0}:ℝ provisionally
+
+Constructor -𝔸:𝔸 provisionally
+Constructor 𝔸 + 𝔸:𝔸 provisionally
+Constructor 𝔸 × 𝔸:𝔸 provisionally
+Constructor 𝔸 - 𝔸:𝔸 provisionally
+Constructor 𝔸 ÷ 𝔸\{0}:𝔸 provisionally
+
 Constructor -ℚ:ℚ
-Constructor -ℤ:ℤ
-
-Constructor ℝ + ℝ:ℝ
 Constructor ℚ + ℚ:ℚ
-Constructor ℤ + ℤ:ℤ
-Constructor ℕ + ℕ:ℕ
-
-Constructor ℝ × ℝ:ℝ
 Constructor ℚ × ℚ:ℚ
-Constructor ℤ × ℤ:ℤ
-Constructor ℕ × ℕ:ℕ
-
-Constructor ℝ - ℝ:ℝ
 Constructor ℚ - ℚ:ℚ
+Constructor ℚ ÷ ℚ\{0}:ℚ
+
+Constructor -ℤ:ℤ
+Constructor ℤ + ℤ:ℤ
+Constructor ℤ × ℤ:ℤ
 Constructor ℤ - ℤ:ℤ
 
-Constructor ℝ ÷ ℝ\{0}:ℝ
-Constructor ℚ ÷ ℚ\{0}:ℚ
+Constructor ℕ + ℕ:ℕ
+Constructor ℕ × ℕ:ℕ
