@@ -1,0 +1,11 @@
+TypeAlias ℝ
+TypeAlias 𝔸
+TypeAlias ℚ
+TypeAlias ℤ
+TypeAlias ℕ
+
+TypeAlias ℝ\{0}
+TypeAlias 𝔸\{0}
+TypeAlias ℚ\{0}
+TypeAlias ℤ\{0}
+TypeAlias ℕ\{0}
